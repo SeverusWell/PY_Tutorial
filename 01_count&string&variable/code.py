@@ -196,3 +196,36 @@ Python内置函数清单
 # print(round(8.51))  # 9
 # print(float('5.1'))  # 5.1
 
+'''
+变量和值
+合法和非法的变量名
+ 变量名的长度不受限制，但其中的字符必须是字母、数字或下划线（_），而不能使用空格、连字符、标点符号、引号或其他字符。
+ 变量名的第一个字符不能是数字，而必须是字母或下划线。
+ Python区分大小写，因此TAX、Tax和tax是截然不同的变量名
+ 不能将Python关键字用作变量名
+M	"m"
+x1	1x
+tax_rate	tax rate
+taxRate	taxRate!
+Else	else
+'''
+# fruit = "cherry"
+# print(fruit)
+
+'''
+多重赋值
+在Python中，有一种便利的技巧，让你能够同时给多个变量赋值
+'''
+# x, y, z = 1, 'two', 0.3
+# print(x)  # 1
+# print(y)  # 'two'
+# print(z)  # 0.3
+# print(x, y, z)  # 1 two 0.3
+# print(1, 'two', 0.3)  # 1 two 0.3 (有意思的打印方式)
+
+'''
+交换变量的值
+'''
+# a, b = 5, 9
+# a, b = b, a
+# print(a, b)  # 9 5 (有点意思)
