@@ -113,3 +113,86 @@ import math
 
 # print(math.sqrt(5))  # 2.23606797749979
 # print(math.sqrt(2) * math.tan(22))  # 0.012518132023611912
+
+'''
+标识字符串
+可使用下列3种主要方式来表示字符串字面量。
+ 单引号，如'http'、'openhouse'或'cat'。
+ 双引号，如"http"、"open house"或"cat"。
+ 三引号，如"""http"""或多行字符串： (在使用三引号括起的字符串中，还可包含字符"和')
+'''
+# print('cat')
+# print('''http''')
+# print("""openhouse""")
+
+'''
+字符串的长度
+'''
+# print(len('up, up, and away'))  # 16
+# print(len(''))  # 0
+
+'''
+由于函数len返回一个整数，所以在任何可以使用整数的地方，都可使用函数len
+'''
+# print(5 + len('cat') * len('dog'))  # 14
+
+'''
+字符串拼接
+可以将既有字符串“相加”来创建新的字符串
+'''
+# print('Once' + " " + 'Upon' + ' ' + "a Time")
+
+'''
+要将同一个字符串拼接很多次，可使用下面这种整洁的快捷方式
+'''
+# print(10 * 'ha')  # hahahahahahahahahaha
+# print(3 * 'hee' + 2 * "!")  # heeheehee!!
+
+'''
+字符串拼接的结果为另一个字符串，因此可在任何需要字符串的地方使用字符串拼接
+'''
+# print(len(12 * 'pizza pie!'))#120
+# print(len("house" + 'boat') * '12')  # '121212121212121212'  =  (9 * '12')  = (整数 * 字符串)
+
+'''
+列出模块中的函数
+'''
+# print(dir(math))  # ['__doc__', '__file__', '__loader__', '__name__' ......
+
+'''
+Python内置函数清单
+'''
+# print(dir(__builtins__))
+
+'''
+查看函数帮助文档
+'''
+# help(dir)
+
+'''
+打印函数的文档字符串
+'''
+# print(math.tanh.__doc__)
+
+'''
+类型转换
+'''
+# print(float(3))  # 3.0
+# print(float('3.2'))  # 3.2
+# print(str(-9.78))  # -9.78
+
+'''
+隐式转换
+有时候Python会自动在数值类型之间转换，而不要求你显式地调用转换函数
+'''
+# print(12 * 1.9)  # 22.799999999999997
+
+'''
+将浮点数转换为整数
+函数int(x)将小数部分删除，而round(x)采用如下标准圆整方式
+'''
+# print(int(8.6))  # 8
+# print(round(8.5))  # 8
+# print(round(8.51))  # 9
+# print(float('5.1'))  # 5.1
+
