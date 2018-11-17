@@ -1,5 +1,6 @@
 [PY_Tutorial] 公告
 ==
+`书名 : <<Python编程入门（第3版）>>`
 
 先看议程看板:
   https://trello.com/b/buttG2pS
